@@ -1,0 +1,16 @@
+{
+    "name": "murdo/bidi-product-authenticator",
+    "description": "Bidi Product Authenticator - Lets the customer use thier Barcode to Authenticate if its original or not",
+    "type": "wp-project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Lidel Kim Daddie",
+            "email": "murdoc21daddie@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"Inc\\": "Inc/"}
+    }
+}

@@ -1,0 +1,43 @@
+/* LOADER */
+#loader, #adminLoader {
+	border: 16px solid #f3f3f3;border-radius: 50%;border-top: 16px solid #37b348;width: 120px;height: 120px;-webkit-animation: spin 2s linear infinite;animation: spin 2s linear infinite;position: fixed;z-index: 999;overflow: visible;margin: auto;top: 0;left: 0;bottom: 0;right: 0;}
+	@-webkit-keyframes spin {
+  		0% { -webkit-transform: rotate(0deg); }
+  		100% { -webkit-transform: rotate(360deg); }
+	}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+#auth_form input[type="text"] {
+    -moz-box-shadow: inset 0px 0px 8px 2px #666;
+    -webkit-box-shadow: inset 0px 0px 8px 2px #666;
+    box-shadow: inset 0px 0px 8px 2px #666;
+    border: none;
+    width: 100%;
+    text-align: center;
+    color: #0079a8;
+    font-weight:700;
+}
+#auth_form input[type="submit"] {
+    color: #fff !important;
+    margin: 25px auto;
+    background-color: #000016 !important;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+#auth_form input[type="submit"]:hover {
+    background-color: #051a2b;
+}
+.jconfirm-title{display: flex !important;justify-content: center !important;}
+.jconfirm-title img{width: 10% !important;margin-right:.5em !important;}
+.jconfirm-title #authenticate-warning{display: flex !important;justify-content: center !important;}
+.jconfirm-title #authenticate-warning img{width: 20% !important;margin-right: 0em !important;}
+
+.jconfirm-buttons button{width: 100% !important;background-color: #08A0DB !important;}
+.jconfirm-buttons button:hover{width: 100% !important;background-color: #051a2b !important;}
